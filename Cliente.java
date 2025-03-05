@@ -13,7 +13,7 @@ public class Cliente {
     @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
     private List<Pedido> pedidos;
 
-    // Getters y Setters
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
